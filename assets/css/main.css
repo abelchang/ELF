@@ -122,8 +122,9 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #e89980;
+		/*border-bottom: dotted 1px;*/
+		/*color: #e89980;*/
+		color: white;
 		text-decoration: none;
 	}
 
@@ -3268,7 +3269,7 @@
 			color: #999;
 			font-size: 0.9em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: -2em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
@@ -3296,7 +3297,7 @@
 	#cta {
 		background: #C8E583;
 		color: white;
-		padding: 3.5em 0 4em 0;
+		padding: 3.5em 0 3em 0;
 		text-align: center;
 	}
 
@@ -3891,6 +3892,10 @@
 		width:35em;
 	}
 
+	.w2Img {
+		width: 30em;
+	}
+
 	.wAcImg {
 		width:35em;
 	}
@@ -3914,9 +3919,38 @@
 		padding-top: 2em;
 	}
 
+	.gloH {
+		padding: 5em;
+	}
+
+	.glocalEd {
+		background-color: #666;
+		background-image: url("../../images/8-1.png");
+		background-position: center center;
+		background-repeat: 	no-repeat;
+		background-size: cover;
+		color: #777;
+		text-align: center;
+		padding: 0 2em;
+		margin: 3em 0 3em -3em;
+	    position: relative;
+	    width: calc(100% + 6em);
+	}
+
+	.glocalEd p {
+		color: #777;
+	}
+
+	.mailLink a:link{
+		text-decoration: none;
+	}
+
 	@media screen and (max-width: 840px) {
 		.wImg {
 			width:30em;
+		}
+		.w2Img {
+			width: 30em;
 		}
 
 		.wAcImg {
@@ -3937,6 +3971,10 @@
 			width:19em;
 		}
 
+		.w2Img {
+			width: 14em;
+		}
+
 		.wAcImg {
 			width:23em;
 		}
@@ -3953,6 +3991,10 @@
 	@media screen and (max-width: 480px) {
 		.wImg {
 			width:19em;
+		}
+
+		.w2Img {
+			width: 14em;
 		}
 
 		.wAcImg {
