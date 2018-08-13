@@ -3924,7 +3924,7 @@
 	}
 
 	.glocalEd {
-		background-color: #666;
+		/*background-color: #666;*/
 		background-image: url("../../images/8-1.png");
 		background-position: center center;
 		background-repeat: 	no-repeat;
@@ -3964,6 +3964,20 @@
 		.actionImg {
 			width:60%; 
 		}
+
+		.glocalEd {
+			/*background-color: #666;*/
+			background-image: url("../../images/8-1.png");
+			background-position: center center;
+			background-repeat: 	no-repeat;
+			background-size: cover;
+			color: #777;
+			text-align: center;
+			padding: 0 2em;
+			margin: 3em 0 3em -2em;
+		    position: relative;
+		    width: calc(100% + 4em);
+		}
 	}
 
 	@media screen and (max-width: 736px) {
@@ -3973,6 +3987,10 @@
 
 		.w2Img {
 			width: 14em;
+		}
+
+		.gloH {
+			padding: 2.5em;
 		}
 
 		.wAcImg {
@@ -3985,6 +4003,20 @@
 		}
 		.actionImg {
 			width:60%; 
+		}
+
+		.glocalEd {
+			/*background-color: #666;*/
+			background-image: url("../../images/8-1.png");
+			background-position: center center;
+			background-repeat: 	no-repeat;
+			background-size: cover;
+			color: #777;
+			text-align: center;
+			padding: 0 2em;
+			margin: 3em 0 3em -2em;
+		    position: relative;
+		    width: calc(100% + 4em);
 		}
 	}
 
@@ -4007,6 +4039,10 @@
 		}
 		.actionImg {
 			width:70%; 
+		}
+
+		.gloH {
+			padding: 2.5em 1em 0.5em 1em;
 		}
 	}
 
