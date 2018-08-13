@@ -4046,4 +4046,30 @@
 		}
 	}
 
+	@media screen and (max-width: 320px) {
+		.wImg {
+			width:19em;
+		}
+
+		.w2Img {
+			width: 16em;
+		}
+
+		.wAcImg {
+			width:18em;
+		}
+
+		.featureImg {
+			width:35%;
+			max-width: 20em;
+		}
+		.actionImg {
+			width:70%; 
+		}
+
+		.gloH {
+			padding: 2.5em 1em 0.5em 1em;
+		}
+	}
+
 
